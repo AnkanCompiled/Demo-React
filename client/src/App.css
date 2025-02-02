@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.navbar-text {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.image {
+  width: 400px;
+  height: 300px;
+}
+
+.image-text {
+  background-color: #222;
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+html {
+  background-color: yellow;
+}
